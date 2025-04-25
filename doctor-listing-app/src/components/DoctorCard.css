@@ -1,0 +1,187 @@
+.doctor-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.doctor-photo {
+  margin-right: 20px;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #f0f0f0;
+}
+
+.initials-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #4a90e2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.doctor-basic-info {
+  flex: 1;
+}
+
+.doctor-name {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.specialties {
+  margin-top: 8px;
+}
+
+.specialty-tag {
+  display: inline-block;
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.card-body {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 20px;
+}
+
+.experience-fees {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  text-align: center;
+}
+
+.label {
+  display: block;
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.value {
+  color: #333;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.fees {
+  color: #4caf50;
+}
+
+.consultation-types {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.consultation-type {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.consultation-type.video {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.consultation-type.clinic {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.consultation-type i {
+  margin-right: 8px;
+}
+
+.clinic-info {
+  margin-bottom: 20px;
+}
+
+.clinic-name {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.clinic-name i {
+  margin-right: 8px;
+  color: #666;
+}
+
+.clinic-address {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.clinic-address i {
+  margin-right: 8px;
+  color: #666;
+}
+
+.languages h4 {
+  margin: 0 0 12px 0;
+  color: #333;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.languages h4 i {
+  margin-right: 8px;
+  color: #666;
+}
+
+.language-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.language-tag {
+  background: #f5f5f5;
+  color: #666;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+} 
